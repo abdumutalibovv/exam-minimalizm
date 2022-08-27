@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow','Fraunces';
+}
+
+.container {
+    max-width: 1308px;
+    margin: 0 auto;
+    padding: 0px 24px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,89 @@
+@mixin mainButton {
+    padding: 15px 31px;
+    background-color: #0E8784;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+    border-radius: 6px;
+
+    &:hover {
+        background-color: #66D2CF;
+    }
+}
+
+@mixin deliverTitle {
+    font-family: 'Fraunces';
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #FEFCF7;
+}
+
+@mixin heroTitle {
+    font-family: 'Fraunces';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+@mixin deliverText {
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
+
+@mixin collectionTitle {
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #333D4B;
+}
+
+@mixin collectionText {
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #333D4B;
+}
+
+@mixin burgerbar {
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+
+@mixin footerText {
+    font-family: 'Barlow';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+    color: #83888F;
+
+    &:hover {
+        color: #333D4B;
+    }
+}
