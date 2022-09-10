@@ -1,0 +1,109 @@
+.contactme {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        max-width: 350px;
+        font-family: 'Ibarra Real Nova';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: center;
+        color: #33323D;
+    }
+
+    &__btn-link {
+        margin-top: 40px;
+        @include aboutBtn;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .contactme {
+        &__inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__line {
+            width: 113px;
+            border: 1px solid #aeaeb6;
+        }
+
+        &__btn-link {
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (min-width:850px) {
+    .contactme {
+        &__inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__line {
+            width: 200px;
+            border: 1px solid #aeaeb6;
+        }
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .contactme {
+        &__inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__line {
+            width: 300px;
+            border: 1px solid #aeaeb6;
+        }
+    }
+}
+
+
+@media only screen and (min-width:1100px) {
+    .contactme {
+        &__inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__line {
+            width: 350px;
+            border: 1px solid #aeaeb6;
+        }
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .contactme {
+        &__inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__line {
+            width: 400px;
+            border: 1px solid #aeaeb6;
+        }
+    }
+}

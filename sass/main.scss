@@ -1,5 +1,8 @@
-@import "./variables";
-@import "./fonts";
-@import "./general";
-@import "./blocks/blocks";
-@import "./visually-hidden";
+@import "variables";
+@import "visually-hidden";
+@import "mixins";
+@import "fonts";
+@import "general";
+@import "blocks/block";
+@import "normalize";
+

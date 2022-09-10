@@ -5,15 +5,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Barlow','Fraunces';
+    font-family: 'Ibarra Real Nova','Public Sans';
+    background-color: #F2F2F2;
 }
 
 .container {
-    max-width: 1308px;
+    max-width: 1150px;
     margin: 0 auto;
-    padding: 0px 24px;
     width: 100%;
+    padding: 0px 32px;
 }
 
 ul {
